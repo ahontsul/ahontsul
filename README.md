@@ -1,7 +1,11 @@
-~ $ mkdir timp-lab-02
-~/timp-lab-02 $ echo "# timp-lab-02" >> README.md
-~/timp-lab-02 $ git init
-~/timp-lab-02 $ git add README.md
-~/timp-lab-02 $ git commit -m "first commit"
-~/timp-lab-02 $ git remote add origin 
-~/timp-lab-02 $ git push -u origin master
+ ~/timp-lab-02 $ alias edit=subl
+ ~/timp-lab-02 $ edit "Hello world.cpp"
+ #include <iostream>
+ #include <string>
+ 
+ using namespace std;
+ int main(int argc, char** argv){
+  string name;
+  cin >> name;
+  cout << "Hello world from " << name << endl;
+ }
